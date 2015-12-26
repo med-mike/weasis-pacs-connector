@@ -39,6 +39,10 @@
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>WeasisLauncher</servlet-name>
+		<url-pattern>/viewer.jnlp</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>WeasisLauncher</servlet-name>
 		<url-pattern>/IHEInvokeImageDisplay</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
